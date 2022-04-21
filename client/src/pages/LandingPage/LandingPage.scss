@@ -1,0 +1,13 @@
+@use "../../styles/mixins" as *;
+
+.landing-page{
+    padding: .5rem 1rem;
+
+    @include tablet {
+        padding: 2rem 4rem;
+    }
+
+    @include desktop {
+        padding: 2rem 8rem;
+    }
+}

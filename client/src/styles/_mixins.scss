@@ -1,0 +1,38 @@
+@use "./variables" as *;
+
+// media breakpoints
+@mixin tablet {
+    @media screen and (min-width: $tablet-breakpoint) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media screen and (min-width: $desktop-breakpoint) {
+      @content;
+    }
+  }
+
+//button style
+@mixin button-style {
+    background-color: transparent;
+    border-color: $color-primary;
+    border-width: .0938rem;
+    color: $color-primary;
+    border-radius: 18155.375rem;
+    cursor: pointer;
+    font-family: "Montserrat";
+    width: 6rem;
+    height: 2rem;
+    font-variation-settings: "wght" 400;
+    align-self: center;
+    margin-top: .5rem;
+    font-size: .75rem;
+    margin-left: .25rem;
+}
+
+@mixin button-style-hover {
+    background-color: $color-primary;
+    color: white;
+    transition:.2s ease-in-out;
+}

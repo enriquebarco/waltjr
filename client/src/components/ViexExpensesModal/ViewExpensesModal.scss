@@ -1,0 +1,53 @@
+.modal {
+
+    &__container {
+        padding: 2rem;
+    }
+    &__title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        padding-bottom: 1rem;
+    }
+
+    &__title--expenses {
+        font-size: 1.15rem;
+        margin: 0rem;
+    }
+
+    &__title-icon {
+        width: 2rem;
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+
+    &__expense {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        &-description {
+            font-size: 1rem;
+            font-variation-settings: "wght" 500;
+            margin: 0;
+        }
+
+        &-amount {
+            font-size: 1rem;
+            margin: 0 .5rem;
+        }
+
+        &-wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        &-icon {
+            width: 1.5rem;
+            cursor: pointer;
+        }
+    }
+}
