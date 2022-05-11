@@ -1,4 +1,4 @@
-# Walt Jr - My First Budget App
+# Walt Jr - Budgeting & Banking
 
 Walt Jr. is a budgeting application that allows users to manage their expenses.  This was a fun challenge! I dove deep into the world of React Hooks, integrating out of the box hooks and even creating some custom hooks. I also enjoyed adding my own styling (I included bootstrap for specific components such as the progress bar and modal, but the rest was done myself!). Since there is no authentication, another cool thing I added was storing all of the user information in local storage, that way the information persists even if the window is closed. Below, you can find a couple of the main features as well as instructions on how to deploy this application locally! This application was deployed on digitalocean.
 
